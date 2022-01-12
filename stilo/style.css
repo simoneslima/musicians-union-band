@@ -65,7 +65,14 @@
             color: #5A9DAE;
             margin-top: 50px;
             text-align: center;
+            
         
+        }
+        ul li {
+            color: #F25C05;
+            padding-top: 0.5em;
+            font-size: 1.5em;
+            margin: 0.5em;
         }
         h2 {
             color: #c9d633;
@@ -77,11 +84,11 @@
             text-align: center;
         }
         p {
-            color: white;
+            color:white;
             text-align: justify;
             text-indent: 1em;
             text-align: center;
-            margin-top: 25px;
+            margin-top: 8px;
         }
        footer {
             background-color: black;
