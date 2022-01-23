@@ -11,11 +11,15 @@
          list-style: none;
          text-align: center;
          margin-top: 50px;
+         font-family: 'Times New Roman', Times, serif;
+         color: #F23005;
+         margin: 2em;
      }
 
      /*---titulo--*/
      .titulo{
          margin-top: 50px;
+         
      }
         main > article {
             background-color: #3F2A8C;;
@@ -24,42 +28,8 @@
             text-align: center;
             margin-top: 50px;
         }
-        nav {
-            background-color: #F2B807;
-            padding: 15px;
-            text-align: center;
-            box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.116);
-            height: 60px; 
-            margin-top: 25px;     
-        }
-        nav > a {
-            color: #F25C05; 
-            padding: 12px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-            line-height: 65px; 
-            font-size: 20px; 
-            margin-top: 25px;           
-     }
-        
-
-        nav > a:hover {
-            transition-duration: 1s;
-            height: 300px;
-            color: white;
-            font-size:1.2em;
-            color: white;
-            text-decoration: none;
-            -webkit-text-stroke: 2px #F23005;
-            transition-timing-function: ease-in-out;
-        }
-        img {
-            margin-left: 30px;
-            margin: auto;
-            display: block;
-            
-        }
+          
+     
 
         h1 {
             color: #5A9DAE;
@@ -83,7 +53,16 @@
             text-align: center;
             margin-top: 8px;
         }
-       footer {
+      
+        
+
+        /*botão de voltar*/
+        .voltar{
+            color: #F25C05;
+            text-align: center;
+        }
+
+        footer {
             background-color: black;
             color: white;
             text-align: center;
@@ -92,13 +71,3 @@
             margin-top: 50px;
             line-height: 50px;
         }
-        img{
-            margin-top: 25px;
-        }
-
-        /*botão de voltar*/
-        .voltar{
-            color: #F25C05;
-            text-align: center;
-        }
-      
