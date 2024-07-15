@@ -57,12 +57,40 @@
       
         
 
-        /*botão de voltar*/
-        .voltar{
-            color: #F25C05;
+        .voltar {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #F25C05;
+            color: white;
             text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
         }
-
+        
+        .voltar:hover {
+            background-color: #D94B04;
+            transition: background-color 0.3s ease;
+        }
+        
+        @media (max-width: 768px) {
+            .voltar {
+                width: 100%;
+                padding: 15px;
+                font-size: 1.1em;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .voltar {
+                width: 100%;
+                padding: 10px;
+                font-size: 1em;
+            }
+        }
+        
         footer {
             background-color: black;
             color: white;
