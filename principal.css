@@ -48,12 +48,8 @@ nav a {
 nav a:hover {
     background-color: #D94B04;
     color: white;
-    -webkit-text-stroke: 1px #F23005;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); /* Adiciona uma sombra ao texto para melhorar a legibilidade */
 }
-
-
-
-
 
 main {
     padding: 20px;
